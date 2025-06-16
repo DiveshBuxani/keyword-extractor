@@ -21,5 +21,21 @@ Afterwards, type `npm run dev` to run the frontend.
 At this point, you should have react app running on your localhost.  
 Now, simply type in the text that you want to extract keywords from!
 
+## Algorithms/Models/Packages Used and Why
+For the backend, I used Flask for its simplicity and its tight integration with ML tools. For the actual ML model extracting the keywords, I used KeyBERT which uses sentence-transformers to generate keywords. The main reason I used this was due to its unsupervised approach as it doesn't require labeled data.  
+
+For the frontend, I used React as it provides a nice framework to display things instead of using a command line. Additionally, I also used axios to send http requests to the backend
+
+## Potential Improvements
+Given more time and resources, the system could be improved in couple ways.  
+# Backend Improvements
+I could potentially store previous queries in a cache to reduce redudant computation.  
+Experimenting with different models could also result in more accurate results. 
+
+
+# Frontend Improvements
+I could make the entire web app more visually appealing using Tailwind CSS as currently it's just a textbox
+
+
 
 
