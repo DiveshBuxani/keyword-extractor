@@ -28,12 +28,12 @@ For the frontend, I used React as it provides a nice framework to display things
 
 ## Potential Improvements
 Given more time and resources, the system could be improved in couple ways.  
-# Backend Improvements
+### Backend Improvements
 I could potentially store previous queries in a cache to reduce redudant computation.  
 Experimenting with different models could also result in more accurate results. 
 
 
-# Frontend Improvements
+### Frontend Improvements
 I could make the entire web app more visually appealing using Tailwind CSS as currently it's just a textbox
 
 
